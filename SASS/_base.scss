@@ -1,0 +1,55 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-tablet-land) {
+    font-size: 50%;
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $color-background;
+  font-size: $default-font-size;
+  font-family: "Montserrat", sans-serif;
+  @media only screen and (max-width: $bp-mobile) {
+    padding: 2rem;
+  }
+}
+
+.container {
+  background-color: $color-white;
+  max-width: 75rem;
+  border-radius: 10px;
+  margin: 10% auto;
+  @media only screen and (max-width: $bp-tablet-land) {
+    margin: 5% auto;
+  }
+  @media only screen and (max-width: $bp-tablet-port) {
+    margin: 1% auto;
+  }
+  @media only screen and (max-width: $bp-mobile) {
+    grid-template-columns: repeat(1, minmax(min-content, 1fr));
+
+    margin: 1% auto;
+    border-radius: 10px;
+  }
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, 1fr));
+  overflow: hidden;
+}
