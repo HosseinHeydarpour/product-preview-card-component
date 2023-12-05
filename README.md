@@ -28,10 +28,10 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-![Desktop Design](screenshots/desktop.png)
+![Desktop Design](screenshots/desktop-design.png)
 ![Desktop active](screenshots/desktop-active.png)
-![Tablet Design](screenshots/tablet.png)
-![Mobile Design](screenshots/mobile.png)
+![Tablet Design](screenshots/tablet-design.png)
+![Mobile Design](screenshots/mobile-design.png)
 
 
 
@@ -39,13 +39,13 @@ Users should be able to:
 
 
 
-- [Solution URL](https://github.com/HosseinHeydarpour/results-summary-component)
-- [Live Site URL](https://hosseinheydarpour.github.io/results-summary-component)
+- [Solution URL](https://github.com/HosseinHeydarpour/product-preview-card-component)
+- [Live Site URL](https://hosseinheydarpour.github.io/product-preview-card-component)
 
 
 
 ## My process
-I employed CSS Grid and Flexbox to create the overall layout, and I utilized SASS to enhance the code’s usability
+ In my solution, I followed a desktop-first approach. For the overall layout, I used CSS Grid, along with Flexbox for handling smaller components like the pricing section and the call-to-action button.
 
 ### Built with
 - Semantic HTML5 markup
@@ -56,7 +56,7 @@ I employed CSS Grid and Flexbox to create the overall layout, and I utilized SAS
 - SASS
 
 ### What I learned
-This challenge really helped me to undrestand CSS grid and Flex-box better for creating great layouts like this.
+This challenge really helped me to undrestand CSS Grid and Flex-box better for creating great layouts and components like this.
 
 ### Continued development
 I still want to improve and enhace my abilities in CSS grid and Flex-box.
